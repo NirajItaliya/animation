@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ShimmerLayout1">
+        <attr name="shimmer_color" format="color|reference" />
+        <attr name="shimmer_animation_duration" format="integer|reference" />
+        <attr name="shimmer_auto_start" format="boolean|reference" />
+        <attr name="shimmer_angle" format="integer|reference" />
+        <attr name="shimmer_mask_width" format="float|reference" />
+        <attr name="shimmer_gradient_center_color_width" format="float|reference" />
+        <attr name="shimmer_reverse_animation" format="boolean|reference" />
+    </declare-styleable>
+    <declare-styleable name="SpaceTabLayout">
+        <attr name="number_of_tabs">
+            <enum name="three" value="3" />
+            <enum name="four" value="4" />
+            <enum name="five" value="5" />
+            <enum name="three_IconOnly" value="0" />
+        </attr>
+        <attr name="starting_position">
+            <enum name="one" value="0" />
+            <enum name="two" value="1" />
+            <enum name="three" value="2" />
+            <enum name="four" value="3" />
+            <enum name="five" value="4" />
+        </attr>
+        <attr name="tab_color" format="color" />
+        <attr name="button_color" format="color" />
+        <attr name="text_color" format="color" />
+        <attr name="icon_one" format="reference" />
+        <attr name="icon_two" format="reference" />
+        <attr name="icon_three" format="reference" />
+        <attr name="icon_four" format="reference" />
+        <attr name="icon_five" format="reference" />
+        <attr name="text_one" format="string" />
+        <attr name="text_two" format="string" />
+        <attr name="text_three" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="FoldingCell">
+        <attr name="backSideColor" format="color" />
+        <attr name="animationDuration" format="integer" />
+        <attr name="additionalFlipsCount" format="integer" />
+        <attr name="cameraHeight" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="CardSlider">
+        <!-- Active card offset from start of RecyclerView. Default value is 50dp. -->
+        <attr name="activeCardLeftOffset" format="dimension" />
+        <!-- Card width. Default value is 148dp. -->
+        <attr name="cardWidth" format="dimension" />
+        <!-- Distance between cards. Default value is 12dp. -->
+        <attr name="cardsGap" format="dimension" />
+        <!-- ViewUpdater implementation class. If not set, DefaultViewUpdater class is used. -->
+        <attr name="viewUpdater" format="string" />
+    </declare-styleable>
+    <declare-styleable name="CircleMenuView">
+        <!-- Array of buttons icons. -->
+        <attr name="button_icons" format="reference" />
+        <!-- Array of buttons colors. -->
+        <attr name="button_colors" format="reference" />
+        <!-- Menu default icon. -->
+        <attr name="icon_menu" format="reference" />
+        <!-- Menu closed icon. -->
+        <attr name="icon_close" format="reference" />
+        <!-- Menu icon color. -->
+        <attr name="icon_color" format="color" />
+        <!-- Ring effect duration. -->
+        <attr name="duration_ring" format="integer" />
+        <!-- On long click ring effect duration. -->
+        <attr name="long_click_duration_ring" format="integer" />
+        <!-- Menu opening animation duration. -->
+        <attr name="duration_open" format="integer" />
+        <!-- Menu closing animation duration. -->
+        <attr name="duration_close" format="integer" />
+        <!-- Distance between center button and buttons. -->
+        <attr name="distance" format="dimension" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/textWriter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="text Writer" />
+
+    <Button
+        android:id="@+id/shimmer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shimmer Layout" />
+
+    <Button
+        android:id="@+id/space_TabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="space Tab Layout" />
+
+    <Button
+        android:id="@+id/Foldingcell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Folding Cell" />
+
+    <Button
+        android:id="@+id/cardslider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Card Slider" />
+
+    <Button
+        android:id="@+id/circlemenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Circl Menu" />
+
+
+</LinearLayout>
